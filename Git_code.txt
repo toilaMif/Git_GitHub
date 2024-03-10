@@ -1,0 +1,15 @@
+git config -g user.name tentaikhoangithub
+git config -g email.name tenemailtaikhoangithub
+
+git config user.name kiem tra ten dang nhap
+	
+#Terms
+Repository (repo): kho
+
+
+#Commands
+- git init   	đưa thư mục thành repository trên github
+- git status 	trạng thái dự án và các thay đổi
+- git add    	lưu lại thời điểm hiện tại của dự án
+- git add . 	để lưu all 
+- git reser	để k chuẩn bị lưu
