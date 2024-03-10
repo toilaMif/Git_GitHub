@@ -5,11 +5,24 @@ git config user.name kiem tra ten dang nhap
 	
 #Terms
 Repository (repo): kho
+Branch : nhánh của dự án mặc định là master
 
 
 #Commands
 - git init   	đưa thư mục thành repository trên github
 - git status 	trạng thái dự án và các thay đổi
-- git add    	lưu lại thời điểm hiện tại của dự án
-- git add . 	để lưu all 
-- git reser	để k chuẩn bị lưu
+- git add    	chuẩn bị lưu lại thời điểm hiện tại của dự án
+- git add . 	để chuẩn bị lưu all 
+- git reser	để không chuẩn bị lưu
+- git commit -m 'initial commit'	chính thức lưu dự án lên github ghi chú'thời điểm đầu tiên cho dự án'	
+
+- git log 	để coi các thời điểm lưu
+- git log --oneline coi các thời điểm lưu gọn hơn
+
+- git checkout id 	trở lại commit có id đó
+- git checkout master	trở lại commit hiện tại
+- git chackout {branch name}
+
+- git branch 	kiểm tra nhánh hiện tại
+- : 	để thoát ra khỏi nhánh
+- git checkout -b {branch name} tạo một nhánh mới
